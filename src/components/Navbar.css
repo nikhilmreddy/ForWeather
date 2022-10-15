@@ -1,0 +1,21 @@
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.text-wrapper {
+    display:flex;
+    margin-right: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);;
+}
+.image {
+    align-self: center;
+    width:85px;
+}
+.text-area {
+    margin-left: 10px;
+    margin-right: 10px;
+}
