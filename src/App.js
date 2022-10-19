@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <Navbar change={getPlace}/>
-      {cityData.main && <Weathercard {...cityData}/>}
+      {place && <Weathercard {...cityData}/>}
     </div>
   );
 }
