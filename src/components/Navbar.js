@@ -23,7 +23,7 @@ export default function Navbar(props) {
           }}
           value={userPlace}
         />
-        <Button onClick={() => props.change(userPlace)} variant="primary">
+        <Button disabled={userPlace.length<3} onClick={() => props.change(userPlace)} variant="primary">
           &#8680;
         </Button>{" "}
       </div>
