@@ -1,16 +1,13 @@
 import React from "react";
-
+import "./weather-container.css";
 
 export default function Weathercard (props) {
     return (
-        <div>
-            <h1>Longitude:{props.coord.lon}</h1>
-            <h1>Latitude:{props.coord.lat}</h1>
-            <p>Temperature:{props.main.temp}<br />
-                Pressure:{props.main.pressure}<br />
-                Humidity:{props.main.humidity}
-            </p>
-
+        <div className="weather-container">
+            <h1>Country: {props.sys.country}</h1>
+            <h1>Temperature: {props.main.temp}</h1>
+            <h2>Pressure: {props.main.pressure}</h2>
+            <h2>Humidity: {props.main.humidity}</h2>
         </div>
     );
 }
