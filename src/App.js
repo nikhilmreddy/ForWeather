@@ -19,7 +19,9 @@ function App() {
     fetchApi();
   },[place])
 
-  hello = 'hello'
+  const hello = () => {
+    
+  }
   function getPlace(inputPlace) {
     setPlace(inputPlace)
   }
