@@ -3,6 +3,7 @@ import React,{useState,useEffect} from "react";
 import Navbar from "./components/Navbar";
 import Weathercard from "./components/Weathercard"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useMemo } from 'react';
 
 function App() {
 //create a state to store place which i got from getPlace
@@ -20,7 +21,7 @@ function App() {
   },[place])
 
   const hello = () => {
-    
+
   }
   function getPlace(inputPlace) {
     setPlace(inputPlace)
