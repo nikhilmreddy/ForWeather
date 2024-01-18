@@ -19,6 +19,7 @@ function App() {
     fetchApi();
   },[place])
 
+  hello = 'hello'
   function getPlace(inputPlace) {
     setPlace(inputPlace)
   }
